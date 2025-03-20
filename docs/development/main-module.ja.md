@@ -7,7 +7,7 @@
 
 前回のシミュレーション大会では、デフォルトのAutowareから機能を絞り、ノード数を減らした縮小構成のAutowareを起動できるLaunchファイルを提供しました．その際の、背景や用意した意図については、[前大会のドキュメント](https://automotiveaichallenge.github.io/aichallenge2023-racing/customize/index.html)をご覧ください．
 
-今回のシミュレーション大会では、前大会と同様にAutowareの部分的な活用や自由自在な取り込みを可能にするため、[AWSIMとの利用を想定した縮小構成のAutoware](https://github.com/AutomotiveAIChallenge/aichallenge-2024/blob/main/aichallenge/workspace/src/aichallenge_submit/aichallenge_submit_launch/launch/reference.launch.xml)を用意しました．
+今回のシミュレーション大会では、前大会と同様にAutowareの部分的な活用や自由自在な取り込みを可能にするため、[AWSIMとの利用を想定した縮小構成のAutoware](https://github.com/AutomotiveAIChallenge/aichallenge-2025/blob/main/aichallenge/workspace/src/aichallenge_submit/aichallenge_submit_launch/launch/reference.launch.xml)を用意しました．
 
 ## 縮小構成のAutowareを用意した背景
 

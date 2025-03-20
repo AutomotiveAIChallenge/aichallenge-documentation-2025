@@ -13,7 +13,7 @@ docker pull ghcr.io/automotiveaichallenge/autoware-universe:humble-latest
 Update Repository
 
 ```sh
-cd aichallenge2024 # path to aichallenge2024
+cd aichallenge2025 # path to aichallenge2025
 git pull origin/main
 ```
 
@@ -26,7 +26,7 @@ If you want to check the simulation screen of AWSIM, follow the steps in [this g
 To develop with three terminals for debugging, open the first terminal using `Alt+Ctrl+T` and then execute the following commands by pasting them with `Ctrl+Shift+P` and pressing `Enter`.
 
 ```bash
-cd ~/aichallenge-2024
+cd ~/aichallenge-2025
 ./docker_run.sh dev cpu
 ```
 
@@ -38,7 +38,7 @@ bash run_simulator.bash
 Open the second terminal using `Alt+Ctrl+T` and then execute the following commands by pasting them with `Ctrl+Shift+P` and pressing `Enter`.
 
 ```bash
-cd ~/aichallenge-2024
+cd ~/aichallenge-2025
 ./docker_run.sh dev cpu
 ```
 
@@ -50,7 +50,7 @@ bash run_autoware.bash
 Open the third terminal using `Alt+Ctrl+T` and then execute the following commands by pasting them with `Ctrl+Shift+P` and pressing `Enter`.
 
 ```bash
-cd ~/aichallenge-2024
+cd ~/aichallenge-2025
 ./docker_run.sh dev cpu
 ```
 

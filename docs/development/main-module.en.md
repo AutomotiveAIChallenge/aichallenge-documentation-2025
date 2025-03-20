@@ -6,7 +6,7 @@ For this competition, we have prepared an implementation based on the autonomous
 
 In the previous simulation competition, we provided a launch file that could start a reduced configuration of Autoware by limiting functions and reducing the number of nodes from the default Autoware. For the background and purpose of this setup, please refer to the [previous competition's documentation](https://automotiveaichallenge.github.io/aichallenge2023-racing/customize/index.html).
 
-For this simulation competition, we have similarly prepared a [reduced configuration of Autoware designed for use with AWSIM](https://github.com/AutomotiveAIChallenge/aichallenge-2024/blob/main/aichallenge/workspace/src/aichallenge_submit/aichallenge_submit_launch/launch/reference.launch.xml) to enable partial use and flexible integration of Autoware.
+For this simulation competition, we have similarly prepared a [reduced configuration of Autoware designed for use with AWSIM](https://github.com/AutomotiveAIChallenge/aichallenge-2025/blob/main/aichallenge/workspace/src/aichallenge_submit/aichallenge_submit_launch/launch/reference.launch.xml) to enable partial use and flexible integration of Autoware.
 
 ## Background of the Reduced Configuration of Autoware
 

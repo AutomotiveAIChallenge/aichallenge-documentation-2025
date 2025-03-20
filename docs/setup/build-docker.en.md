@@ -13,7 +13,7 @@ Open a terminal again using `Alt+Ctrl+T`. Follow the commands below by pasting t
 First, navigate to the competition repository.
 
 ```bash
-cd ~/aichallenge-2024
+cd ~/aichallenge-2025
 ```
 
 Build the Docker image.
@@ -31,7 +31,7 @@ docker images
 You should see an image like this:
 
 ```txt
-aichallenge-2024-dev   latest   df2e83a20349   33 minutes ago   8.9GB
+aichallenge-2025-dev   latest   df2e83a20349   33 minutes ago   8.9GB
 ```
 
 ## Building Autoware within the Docker Container
@@ -39,7 +39,7 @@ aichallenge-2024-dev   latest   df2e83a20349   33 minutes ago   8.9GB
 Start the Docker container by executing the following:
 
 ```bash
-cd ~/aichallenge-2024
+cd ~/aichallenge-2025
 ./docker_run.sh dev cpu
 ```
 

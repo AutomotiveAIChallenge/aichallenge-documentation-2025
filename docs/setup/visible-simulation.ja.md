@@ -76,9 +76,9 @@ sudo apt install -y libvulkan1
 
 ## AWSIMのダウンロード（シミュレータの配布は終了しました）
 
-1. Google Drive から最新の `AWSIM_GPU_**.zip` をダウンロードし、`aichallenge-2024/aichallenge/simulator` に展開します。
+1. Google Drive から最新の `AWSIM_GPU_**.zip` をダウンロードし、`aichallenge-2025/aichallenge/simulator` に展開します。
 
-2. 実行ファイルが`aichallenge-2024/aichallenge/simulator/AWSIM/AWSIM.x86_64`に存在していることを確認してください。
+2. 実行ファイルが`aichallenge-2025/aichallenge/simulator/AWSIM/AWSIM.x86_64`に存在していることを確認してください。
 
 3. パーミッションを図のように変更します。
 
@@ -89,7 +89,7 @@ sudo apt install -y libvulkan1
 描画ありのAWSIMを使用する場合は、以下のコマンドでコンテナを起動してください。
 
 ```bash
-cd aichallenge-2024
+cd aichallenge-2025
 ./docker_build.sh dev
 ./docker_run.sh dev gpu
 ```

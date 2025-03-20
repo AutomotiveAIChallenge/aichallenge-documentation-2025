@@ -11,11 +11,11 @@ The following information will be shared with each team before the event.
 
 ## Important Notes
 
-- Please do not rename the `aichallenge-2024` directory under home as scripts are path-dependent.
+- Please do not rename the `aichallenge-2025` directory under home as scripts are path-dependent.
 - ROSBAG recording is not automatic, so please execute the recording command during operation.
 - By default, Zenoh communication is set to only receive topics. If you need to change settings during operation, please use either of the following methods:
     - Connect via SSH and execute directly from within the ECU without using Zenoh Bridge
-    - Comment out the `allow` section (lines 55-62) in the configuration file (`vehicle/zenoh.json5`) inside `aichallenge-2024` on the ECU
+    - Comment out the `allow` section (lines 55-62) in the configuration file (`vehicle/zenoh.json5`) inside `aichallenge-2025` on the ECU
 - To connect using a vehicle number, you need to install arp-scan software using the following command:
     - `sudo apt install arp-scan`
 
@@ -25,7 +25,7 @@ Connect to the ECU via SSH from your local PC using the `CCTB_office_01` Wi-Fi n
 
 - Install arp-scan on your local PC: `sudo apt update && sudo apt install arp-scan`
 - Connect your PC to the `CCTB_office_01` Wi-Fi network (same network as the vehicle ECU).
-- On your PC, execute `cd aichallege-2024/remote` to change to the working directory
+- On your PC, execute `cd aichallege-2025/remote` to change to the working directory
 - Execute `bash connect_ssh.bash <vehicle_name> <username>` on your PC (e.g., `bash connect_ssh.bash A9 aic-team`)
 - Enter your PC password if prompted
 - Enter the vehicle ECU password when prompted
@@ -39,17 +39,17 @@ If the above commands don't work, please try the following:
 
 ## How to Transfer Autoware to Vehicle ECU
 
-- Please keep the folder name as `aichallenge-2024` due to script path dependencies.
+- Please keep the folder name as `aichallenge-2025` due to script path dependencies.
 
-1. An `aichallenge-2024` folder is located under `/home` on the ECU; edit the submit folder within.
-2. Transfer aichallenge-2024 from your PC using SCP or VSCode Remote SSH
+1. An `aichallenge-2025` folder is located under `/home` on the ECU; edit the submit folder within.
+2. Transfer aichallenge-2025 from your PC using SCP or VSCode Remote SSH
 
 ## Operations After Connecting to Vehicle ECU
 
 ### 1. Starting Drivers and Docker Containers
 
 ```bash
-cd aichallenge-2024
+cd aichallenge-2025
 ./docker_build.sh dev (only needs to be executed once initially)
 bash run_vehicle_tmux.sh
 ```
@@ -57,8 +57,8 @@ bash run_vehicle_tmux.sh
 The terminal will be split as shown below:
 ![tmux-image](./images/tmux.png)
 
-- Left ①: Starts ./docker_run dev cpu and enters aichallenge-2024 container
-- Right ②: Starts ./docker_run dev cpu and enters aichallenge-2024 container
+- Left ①: Starts ./docker_run dev cpu and enters aichallenge-2025 container
+- Right ②: Starts ./docker_run dev cpu and enters aichallenge-2025 container
 - Right ③: Vehicle driver software starts
 - Right ④: Zenoh bridge starts
 - Right ⑤: Nothing specific
@@ -158,6 +158,6 @@ A. Topics may be delayed or lost due to communication conditions.
 - You can set topic priorities in `./vehicle/zenoh.json5` config file using `pub_priorities: ["/racing_kart/joy=1:express"]`
 - Try executing `./remote/network_setting.bash`
 
-### Q. Unsure if inside aichallenge-2024 container
+### Q. Unsure if inside aichallenge-2025 container
 
 A. A simple check: execute the docker command in the terminal - if you get `bash: docker: command not found`, you're inside Docker.

@@ -1,4 +1,4 @@
-# Japan Automotive AI Challenge 2024
+# Japan Automotive AI Challenge 2025
 
 ![top_image](./assets/top_image.jpg)
 
@@ -45,7 +45,7 @@
 ## 表彰
 
 賞金の総額は100万円以上となっております。
-詳細は[2024年度自動運転AIチャレンジの開催概要](https://www.jsae.or.jp/jaaic/2024ver/summary/)をご覧ください。
+詳細は[2025年度自動運転AIチャレンジの開催概要](https://www.jsae.or.jp/jaaic/2025ver/summary/)をご覧ください。
 
 ## 走行コース
 

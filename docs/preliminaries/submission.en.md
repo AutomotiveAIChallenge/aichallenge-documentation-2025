@@ -67,7 +67,7 @@ Submit your work by following these steps:
 
     - Check inside Docker with the following command to ensure everything is correctly installed and built in the required directories.
 
-        - Run: `docker run -it aichallenge-2024-eval:latest /bin/bash`
+        - Run: `docker run -it aichallenge-2025-eval:latest /bin/bash`
 
     - Verify the following directories:
 

@@ -10,7 +10,7 @@ AIチャレンジではオープンソースソフトウェアを駆使してい
 
 既にチャレンジに参加された方々には、ご自身の経験を公開し、コミュニティに貢献して大会の発展に寄与していただければと思います。皆さんの積極的な参加が、大会をさらに充実させることに繋がります。
 
-※AIチャレンジで開発する上でベースとなるソースコードは[大会用リポジトリ](https://github.com/AutomotiveAIChallenge/aichallenge-2024/tree/main/aichallenge/workspace/src/aichallenge_submit)内で提供されています。
+※AIチャレンジで開発する上でベースとなるソースコードは[大会用リポジトリ](https://github.com/AutomotiveAIChallenge/aichallenge-2025/tree/main/aichallenge/workspace/src/aichallenge_submit)内で提供されています。
 
 参加者の皆様にはこちらのコードやパラメータをカスタマイズすることで開発を進めていただきますが、Autowareに不慣れな方はまずは[入門講座](../course/index.ja.md)を一通りやっていただくことをお勧めします。
 
@@ -27,7 +27,7 @@ AIチャレンジではオープンソースソフトウェアを駆使してい
 環境構築後何をして良いのかわからない方向けに、まずパラメータを調整してみましょう。
 今回は制御モジュールのsimple_pure_pursuitのパラメータを変更してみることにします。
 
-`$HOME/aichallenge-2024/aichallenge/workspace/src/aichallenge_submit/aichallenge_submit_launch/launch/reference.launch.xml`内の以下の`value`値を調整してみましょう。
+`$HOME/aichallenge-2025/aichallenge/workspace/src/aichallenge_submit/aichallenge_submit_launch/launch/reference.launch.xml`内の以下の`value`値を調整してみましょう。
 
 ```xml
 <node pkg="simple_pure_pursuit" exec="simple_pure_pursuit" name="simple_pure_pursuit_node" output="screen">
@@ -58,7 +58,7 @@ AIチャレンジではオープンソースソフトウェアを駆使してい
 
 ## [任意]Mapの編集をしてみる
 
-2024年度のAIチャレンジでは[VectorMapBuilder](https://tools.tier4.jp/feature/vector_map_builder_ll2/)などのツールを使ってpoint cloud map , lanelet2 mapなどの地図の編集を推奨しています。
+2025年度のAIチャレンジでは[VectorMapBuilder](https://tools.tier4.jp/feature/vector_map_builder_ll2/)などのツールを使ってpoint cloud map , lanelet2 mapなどの地図の編集を推奨しています。
 
 Mapのファイル置き場からpointcloud map lanelet2 mapなどをダウンロードして編集してみましょう！（Mapの配布は終了しました）
 

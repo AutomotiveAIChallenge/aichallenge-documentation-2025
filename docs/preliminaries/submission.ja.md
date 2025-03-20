@@ -67,7 +67,7 @@
 
     - 以下のコマンドでDocker内を確認し、必要なディレクトリに正しくインストール・ビルドされているか確認してください。
 
-        - `docker run -it aichallenge-2024-eval:latest /bin/bash`
+        - `docker run -it aichallenge-2025-eval:latest /bin/bash`
 
     - 確認するディレクトリ:
 

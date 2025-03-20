@@ -10,7 +10,7 @@ Furthermore, to deepen your understanding of autonomous driving, we recommend us
 
 For those who have already participated in the challenge, we encourage you to share your experiences, contribute to the community, and help the competition evolve. Your active participation will contribute to making the competition even more fulfilling.
 
-* The source code that forms the basis for development in the AI Challenge is provided in the [competition repository](https://github.com/AutomotiveAIChallenge/aichallenge-2024/tree/main/aichallenge/workspace/src/aichallenge_submit) .
+* The source code that forms the basis for development in the AI Challenge is provided in the [competition repository](https://github.com/AutomotiveAIChallenge/aichallenge-2025/tree/main/aichallenge/workspace/src/aichallenge_submit) .
 
 Participants will proceed with development by customizing this code and parameters. However, if you are unfamiliar with Autoware, we recommend going through the [introductory course](../course/index.en.md) first.
 
@@ -27,7 +27,7 @@ If you are unsure where to start, we recommend starting with this [article](http
 For those who are unsure what to do after setting up the environment, try adjusting the parameters first.
 This time, let's change the parameters of the control module simple_pure_pursuit.
 
-Let's adjust the `value` values below in `$HOME/aichallenge-2024/aichallenge/workspace/src/aichallenge_submit/aichallenge_submit_launch/launch/reference.launch.xml`.
+Let's adjust the `value` values below in `$HOME/aichallenge-2025/aichallenge/workspace/src/aichallenge_submit/aichallenge_submit_launch/launch/reference.launch.xml`.
 
 ```xml
 <node pkg="simple_pure_pursuit" exec="simple_pure_pursuit" name="simple_pure_pursuit_node" output="screen">
@@ -58,7 +58,7 @@ It would be best if you proceed as follows.
 
 ## [Optional] Try editing the map
 
-For the 2024 AI Challenge, we recommend editing maps such as point cloud maps and lanelet2 maps using tools like [VectorMapBuilder](https://tools.tier4.jp/feature/vector_map_builder_ll2/) .
+For the 2025 AI Challenge, we recommend editing maps such as point cloud maps and lanelet2 maps using tools like [VectorMapBuilder](https://tools.tier4.jp/feature/vector_map_builder_ll2/) .
 
 Download and edit the point cloud map, lanelet2 map, etc., from the Map file storage! (The map distribution has ended.)
 

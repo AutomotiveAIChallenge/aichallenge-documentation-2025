@@ -15,7 +15,7 @@ Clone the workspace repository. Here, we specify the home directory, but you can
 
 ```bash
 cd ~
-git clone https://github.com/AutomotiveAIChallenge/aichallenge-2024.git
+git clone https://github.com/AutomotiveAIChallenge/aichallenge-2025.git
 ```
 
 ## [Next Step: Installing the Virtual Environment](./docker.en.md)

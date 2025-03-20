@@ -13,7 +13,7 @@
 まず大会用リポジトリに入ります。
 
 ```bash
-cd ~/aichallenge-2024
+cd ~/aichallenge-2025
 ```
 
 Dockerイメージのビルドを行います。
@@ -29,7 +29,7 @@ docker images
 で以下のイメージが生成されていることを確認しましょう。
 
 ```txt
-aichallenge-2024-dev   latest   df2e83a20349   33 minutes ago   8.9GB
+aichallenge-2025-dev   latest   df2e83a20349   33 minutes ago   8.9GB
 ```
 
 ## Dockerコンテナ上でのAutowareのビルド
@@ -37,7 +37,7 @@ aichallenge-2024-dev   latest   df2e83a20349   33 minutes ago   8.9GB
 以下を実行してDockerコンテナを立ち上げます。
 
 ```bash
-cd ~/aichallenge-2024
+cd ~/aichallenge-2025
 ./docker_run.sh dev cpu
 ```
 

@@ -82,7 +82,7 @@ Please install Rocker as described [here](../docs/setup/docker.ja.md).
 
 ---
 
-### <u>`WARNING unable to detect os for base image 'aichallenge-2024-dev', maybe the base image does not exist` appears.</u>
+### <u>`WARNING unable to detect os for base image 'aichallenge-2025-dev', maybe the base image does not exist` appears.</u>
 
 Please build the Docker image.
 

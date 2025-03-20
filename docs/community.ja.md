@@ -1,6 +1,6 @@
 # Community
 
-## 自動運転AIチャレンジアドベントカレンダー 2024
+## 自動運転AIチャレンジアドベントカレンダー 2025
 
 <https://qiita.com/advent-calendar/2023/jidounten-ai>
 

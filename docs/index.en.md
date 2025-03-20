@@ -1,4 +1,4 @@
-# Japan Automotive AI Challenge 2024
+# Japan Automotive AI Challenge 2025
 
 ![top_image](./assets/top_image.jpg)
 
@@ -44,7 +44,7 @@ For example, participants will be challenged to adjust parameters for applicatio
 
 ## Awards
 
-The total prize money is over 1 million yen. For details, please refer to the [2024 Autonomous Driving AI Challenge Overview](https://www.jsae.or.jp/jaaic/2024ver/summary/).
+The total prize money is over 1 million yen. For details, please refer to the [2025 Autonomous Driving AI Challenge Overview](https://www.jsae.or.jp/jaaic/2025ver/summary/).
 
 ## Course
 

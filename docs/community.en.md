@@ -1,6 +1,6 @@
 # Community
 
-## Autonomous Driving AI Challenge Advent Calendar 2024
+## Autonomous Driving AI Challenge Advent Calendar 2025
 
 <https://qiita.com/advent-calendar/2023/jidounten-ai>
 

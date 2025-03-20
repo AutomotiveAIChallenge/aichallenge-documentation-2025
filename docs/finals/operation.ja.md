@@ -12,11 +12,11 @@
 
 ## 注意事項
 
-- スクリプトがパスに依存しているため、ホーム直下の `aichallenge-2024` は名前を変更しないようお願いします。
+- スクリプトがパスに依存しているため、ホーム直下の `aichallenge-2025` は名前を変更しないようお願いします。
 - ROSBAGが自動で記録されないため、走行時に記録コマンドの実行をお願いします。
 - Zenoh で通信はデフォルトで topic の受信しかできない設定になっています。走行中の設定変更などを行いたい場合は以下のどちらかで対応をお願いします。
     - Zenoh Bridge を使わず ssh で接続して ECU 内から直接実行する
-    - ECU の `aichallenge-2024` 内にある設定ファイル (`vehicle/zenoh.json5`) の `allow` 部分をコメントアウトする (55-62行目)
+    - ECU の `aichallenge-2025` 内にある設定ファイル (`vehicle/zenoh.json5`) の `allow` 部分をコメントアウトする (55-62行目)
 - 車両番号を指定して接続するには arp-scan というソフトのインストールが必要ですので以下のコマンドでインストールしてください
     - `sudo apt install arp-scan`
 
@@ -26,7 +26,7 @@
 
 - 手元PCにarp-scanをインストールする。`sudo apt update && sudo apt install arp-scan`
 - 手元のPCを `CCTB_office_01` というWi-Fiに接続する(車両 ECU と同じネットワーク)。
-- 手元のPCで `cd aichallege-2024/remote` を実行して作業ディレクトリを移動する
+- 手元のPCで `cd aichallege-2025/remote` を実行して作業ディレクトリを移動する
 - 手元のPCで `bash connect_ssh.bash <車両名> <ユーザー名>` を実行する (例 `bash connect_ssh.bash A9 aic-team`)
 - 手元のPCのパスワードを聞かれた場合は入力する
 - 車両 ECU のパスワードを聞かれるので入力する
@@ -40,18 +40,18 @@
 
 ## 車両ECUへのAutoware転送方法
 
-- スクリプトのパスに依存しているため、フォルダ名は`aichallenge-2024`から変更しないようお願いします。
+- スクリプトのパスに依存しているため、フォルダ名は`aichallenge-2025`から変更しないようお願いします。
 
-1. ECUの`/home`直下に`aichallenge-2024`フォルダが配置されており、そちらのsubmitフォルダ内を編集する。
+1. ECUの`/home`直下に`aichallenge-2025`フォルダが配置されており、そちらのsubmitフォルダ内を編集する。
 
-2. SCPやVSCodeのRemote SSH等で手元PCからaichallenge-2024を転送する
+2. SCPやVSCodeのRemote SSH等で手元PCからaichallenge-2025を転送する
 
 ## 車両ECU接続後の操作
 
 ### 1. 各種ドライバやDockerコンテナの起動
 
 ```bash
-cd aichallenge-2024
+cd aichallenge-2025
 ./docker_build.sh dev (最初に1回実行すればOKです)
 bash run_vehicle_tmux.sh
 ```
@@ -60,8 +60,8 @@ bash run_vehicle_tmux.sh
 
 ![tmux-image](./images/tmux.png)
 
-- 左側①: ./docker_run dev cpu が起動し aichallenge-2024 のコンテナ内に入る
-- 右側②： ./docker_run dev cpu が起動し aichallenge-2024 のコンテナ内に入る
+- 左側①: ./docker_run dev cpu が起動し aichallenge-2025 のコンテナ内に入る
+- 右側②： ./docker_run dev cpu が起動し aichallenge-2025 のコンテナ内に入る
 - 右側③：車両のドライバソフトが起動する
 - 右側④：Zenohのブリッジが起動する
 - 右側⑤：特になし
@@ -170,6 +170,6 @@ A. 通信状況によりTopicが遅れたり・ロスすることがあります
 
 - `./remote/network_setting.bash`の実行も試してみてください。
 
-### Q. aichallenge-2024コンテナに入れているかわからない
+### Q. aichallenge-2025コンテナに入れているかわからない
 
 A. 簡易的ですがそのターミナル内でdockerコマンドを実行し`bash: docker: command not found`と出ればDocker内に入れています。

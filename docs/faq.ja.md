@@ -90,7 +90,7 @@ AWSIMを起動した直後にcoredumpで終了する場合、GPUのメモリが�
 
 ---
 
-### <u>`WARNING unable to detect os for base image 'aichallenge-2024-dev', maybe the base image does not exist`が出ます。</u>
+### <u>`WARNING unable to detect os for base image 'aichallenge-2025-dev', maybe the base image does not exist`が出ます。</u>
 
 Dockerイメージのビルドをお願いします。
 
