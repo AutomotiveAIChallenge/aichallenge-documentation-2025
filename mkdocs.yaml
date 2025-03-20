@@ -23,7 +23,7 @@ nav:
   - information:
       - information/schedule.md
   - preliminaries:
-      - information/rules.md
+      - preliminaries/rules.md
       - preliminaries/submission.md
       - preliminaries/check-results.md
   - finals:
