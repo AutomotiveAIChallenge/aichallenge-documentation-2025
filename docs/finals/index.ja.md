@@ -1,7 +1,7 @@
 # 決勝大会の概要
 
 準決勝と決勝大会の最新情報は以下の自動車技術会のホームページをご覧ください．
-[https://www.jsae.or.jp/jaaic/2025ver/](https://www.jsae.or.jp/jaaic/2025ver/)
+<!-- [https://www.jsae.or.jp/jaaic/2025ver/](https://www.jsae.or.jp/jaaic/2025ver/) -->
 
 ## 開催概要
 

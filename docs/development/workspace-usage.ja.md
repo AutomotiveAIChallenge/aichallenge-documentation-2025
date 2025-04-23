@@ -10,7 +10,7 @@ AIチャレンジではオープンソースソフトウェアを駆使してい
 
 既にチャレンジに参加された方々には、ご自身の経験を公開し、コミュニティに貢献して大会の発展に寄与していただければと思います。皆さんの積極的な参加が、大会をさらに充実させることに繋がります。
 
-※AIチャレンジで開発する上でベースとなるソースコードは[大会用リポジトリ](https://github.com/AutomotiveAIChallenge/aichallenge-2025/tree/main/aichallenge/workspace/src/aichallenge_submit)内で提供されています。
+<!-- ※AIチャレンジで開発する上でベースとなるソースコードは[大会用リポジトリ](https://github.com/AutomotiveAIChallenge/aichallenge-2025/tree/main/aichallenge/workspace/src/aichallenge_submit)内で提供されています。 -->
 
 参加者の皆様にはこちらのコードやパラメータをカスタマイズすることで開発を進めていただきますが、Autowareに不慣れな方はまずは[入門講座](../course/index.ja.md)を一通りやっていただくことをお勧めします。
 

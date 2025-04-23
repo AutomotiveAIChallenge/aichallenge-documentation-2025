@@ -1,7 +1,7 @@
 # Finals Overview
 
 For the latest information on the semifinals and finals, please visit the following Society of Automotive Engineers of Japan website:
-[https://www.jsae.or.jp/jaaic/2025ver/](https://www.jsae.or.jp/jaaic/2025ver/)
+<!-- [https://www.jsae.or.jp/jaaic/2025ver/](https://www.jsae.or.jp/jaaic/2025ver/) -->
 
 ## Event Details
 
