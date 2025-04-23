@@ -20,8 +20,6 @@ theme:
 nav:
   - index: index.md
   - getting-started.md
-  - information:
-      - information/schedule.md
   - preliminaries:
       - preliminaries/rules.md
       - preliminaries/submission.md
@@ -70,7 +68,6 @@ plugins:
           build: true
           nav_translations:
             index: トップページ
-            information: 大会情報
             preliminaries: 予選
             finals: 決勝
             setup: 環境構築
@@ -82,7 +79,6 @@ plugins:
           build: true
           nav_translations:
             index: Top Page
-            information: Information
             preliminaries: Preliminaries
             setup: Setup
             development: Development

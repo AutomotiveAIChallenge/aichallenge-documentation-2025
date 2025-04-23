@@ -1,6 +1,6 @@
 # Japan Automotive AI Challenge 2025
 
-![top_image](./assets/top_image.jpg)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FGGTUcfV7nU?si=3OWNwnpa_utk8D31" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## コンセプト
 
@@ -26,7 +26,7 @@
 - デジタルツインシミュレーションを通じた技術革新
 - 技術コンペ×エンタメ=モータースポーツを題材とした「憧れ」や「情熱・興奮」の創出
 
-## 概要
+## 挑戦課題
 
 ### 予選
 
@@ -42,11 +42,6 @@
 
 <iframe width="960" height="540" src="https://www.youtube.com/embed/GsuCUoNrMDM?si=zoh1mL_U0yRnB2fj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-## 表彰
-
-賞金の総額は100万円以上となっております。
-詳細は[2025年度自動運転AIチャレンジの開催概要](https://www.jsae.or.jp/jaaic/2025ver/summary/)をご覧ください。
-
 ## 走行コース
 
 <iframe width="960" height="540" src="https://www.youtube.com/embed/K-N-2nLXXF8?si=pZ2NovtO_IGwsa_4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -54,7 +49,3 @@
 ## 使用車両
 
 ![TOM'S Racing Kart](./assets/racing-kart.jpeg)
-
-## 挑戦課題
-
-サーキットコースを走行し、規定の周回数に到達するまでの走行時間を競います。また、今回は単独での走行になりますが、将来的には他の車両と同時に走ることを想定し、コース上に設置された仮想的な障害物の回避にも挑戦していただきます。
