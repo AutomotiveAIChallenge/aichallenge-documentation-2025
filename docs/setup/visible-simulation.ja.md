@@ -74,7 +74,7 @@ sudo apt update
 sudo apt install -y libvulkan1
 ```
 
-## AWSIMのダウンロード（シミュレータの配布は終了しました）
+## AWSIMのダウンロード（シミュレータの配布は大会開始時になります）
 
 1. Google Drive から最新の `AWSIM_GPU_**.zip` をダウンロードし、`aichallenge-2025/aichallenge/simulator` に展開します。
 

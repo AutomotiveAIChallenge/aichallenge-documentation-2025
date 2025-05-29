@@ -60,7 +60,7 @@ AIチャレンジではオープンソースソフトウェアを駆使してい
 
 2025年度のAIチャレンジでは[VectorMapBuilder](https://tools.tier4.jp/feature/vector_map_builder_ll2/)などのツールを使ってpoint cloud map , lanelet2 mapなどの地図の編集を推奨しています。
 
-Mapのファイル置き場からpointcloud map lanelet2 mapなどをダウンロードして編集してみましょう！（Mapの配布は終了しました）
+Mapのファイル置き場からpointcloud map lanelet2 mapなどをダウンロードして編集してみましょう！（Mapの配布は大会開始時になります）
 
 [VectorMapBuilderの使い方動画](https://www.youtube.com/watch?v=GvZr707TmuM)にステップバイステップのインストラクションなどがあるので参考にしてみてください。
 
