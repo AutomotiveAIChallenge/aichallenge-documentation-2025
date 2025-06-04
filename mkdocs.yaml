@@ -13,18 +13,19 @@ theme:
   palette:
     scheme: slate
     primary: custom
-    accent: red
+    accent: purple
     # logo:
     # favicon:
 
 nav:
   - index: index.md
   - getting-started.md
-  - preliminaries:
+  - competition:
+    - preliminaries:
       - preliminaries/rules.md
       - preliminaries/submission.md
       - preliminaries/check-results.md
-  - finals:
+    - finals:
       - finals/index.md
       - finals/operation.md
   - setup:
@@ -38,10 +39,10 @@ nav:
       - development/workspace-usage.md
       - development/main-module.md
       - development/reference.md
-  - specifications:
-      - specifications/interface.md
-      - specifications/hardware.md
-      - specifications/simulator.md
+      - specifications:
+        - specifications/interface.md
+        - specifications/hardware.md
+        - specifications/simulator.md
   - course:
       - course/index.md
       - course/vehicle.md
@@ -68,10 +69,11 @@ plugins:
           build: true
           nav_translations:
             index: トップページ
-            preliminaries: 予選
-            finals: 決勝
+            competition: 競技概要
+            preliminaries: 予選大会
+            finals: 決勝大会
             setup: 環境構築
-            development: 開発
+            development: 開発課題
             specifications: 仕様
             course: 入門講座
         - locale: en
