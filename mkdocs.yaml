@@ -7,13 +7,15 @@ use_directory_urls: false
 
 theme:
   name: material
+  custom_dir: overrides
   features:
     - navigation.tabs
     - navigation.tabs.sticky
+    - announce.dismiss
   palette:
     scheme: slate
     primary: custom
-    accent: red
+    accent: green
     # logo:
     # favicon:
 
@@ -27,6 +29,7 @@ nav:
   - finals:
       - finals/index.md
       - finals/operation.md
+      - finals/agreement.md
   - setup:
       - setup/requirements.md
       - setup/workspace-setup.md
@@ -34,10 +37,10 @@ nav:
       - setup/headless-simulation.md
       - setup/visible-simulation.md
       - setup/build-docker.md
+      - setup/reference.md
   - development:
       - development/workspace-usage.md
       - development/main-module.md
-      - development/reference.md
   - specifications:
       - specifications/interface.md
       - specifications/hardware.md
@@ -56,6 +59,9 @@ extra_css:
 markdown_extensions:
   - admonition
   - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
 
 plugins:
   - search:
@@ -67,13 +73,14 @@ plugins:
           name: 日本語
           build: true
           nav_translations:
-            index: トップページ
+            index: 大会概要
             preliminaries: 予選
             finals: 決勝
             setup: 環境構築
             development: 開発
             specifications: 仕様
             course: 入門講座
+            Community: コミュニティ
         - locale: en
           name: English
           build: true
