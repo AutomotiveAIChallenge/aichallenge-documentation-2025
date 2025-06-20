@@ -12,7 +12,6 @@
 | ---------- | ------ | ---------- | ------------------------------------------------- |
 | --timeout  | float  | 420.0      | セッションのタイムアウトを設定します。            |
 | --endless  | bool   | false      | セッションのタイムアウトの有効/無効を設定します。 |
-| --pit-stop | bool   | true       | ピットストップ関連の機能の有効/無効を設定します。 |
 | --replay0  | string |            | 以前の走行ログを読み込み別車両として再生します。  |
 
 リプレイのログには `result-details.json` を使用します。また、リプレイは `--replay0` から `--replay9` まで10台の車両に対応しています。
@@ -87,8 +86,8 @@ Vehicleコンポーネントの設定内容を以下の表にまとめていま�
 | Sleep Time Threshold                | 0      |
 | Skidding Cancel Rate                | 0.236  |
 | **Input Settings**                  |        |
-| Max Steer Angle Input               | 80     |
-| Max Acceleration Input              | 3.2    |
+| Max Steer Angle Input               | 25     |
+| Max Acceleration Input              | 2.0    |
 
 #### Rigidbodyコンポーネント
 
