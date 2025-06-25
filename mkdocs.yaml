@@ -53,11 +53,15 @@ nav:
       - course/localization.md
   - FAQ: faq.md
   - Community: community.md
+  - AI教材: ai.md
 
 extra_css:
   - stylesheets/custom.css
 
 markdown_extensions:
+  - pymdownx.details
+  - pymdownx.superfences
+  - admonition
   - admonition
   - attr_list
   - pymdownx.emoji:
@@ -82,6 +86,7 @@ plugins:
             specifications: 仕様
             course: 入門講座
             Community: コミュニティ
+            AI: AI
         - locale: en
           name: English
           build: true
