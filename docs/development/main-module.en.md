@@ -14,7 +14,7 @@ In the previous simulation competition, we provided a launch file that could sta
 
 The default Autoware is composed of many nodes to accommodate various driving environments.
 
-You can also view the [configuration diagram of ROS nodes that constitute Autoware](https://autowarefoundation.github.io/autoware-documentation/main/design/autoware-architecture/node-diagram/) in the official Autoware documentation. The current diagram is shown below.
+You can also view the [configuration diagram of ROS nodes that constitute Autoware](https://autowarefoundation.github.io/autoware-documentation/main/design/autoware-architecture-v1/node-diagram/) in the official Autoware documentation. The current diagram is shown below.
 
 ![node-diagram](./images/architecture/autoware-node-diagram.png)
 

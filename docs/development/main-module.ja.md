@@ -15,7 +15,7 @@
 
 デフォルトのAutowareでは様々な走行環境に対応するため、たくさんのノードから構成されています．
 
-Autowareの公式ドキュメンテーションでは、[Autowareを構成するROSノードの構成図](https://autowarefoundation.github.io/autoware-documentation/main/design/autoware-architecture/node-diagram/)を見ることもできます．以下に現時点の図を示します．
+Autowareの公式ドキュメンテーションでは、[Autowareを構成するROSノードの構成図](https://autowarefoundation.github.io/autoware-documentation/main/design/autoware-architecture-v1/node-diagram/)を見ることもできます．以下に現時点の図を示します．
 
 ![node-diagram](./images/architecture/autoware-node-diagram.png)
 
