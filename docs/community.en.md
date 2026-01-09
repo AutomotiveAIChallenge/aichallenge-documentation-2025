@@ -1,13 +1,12 @@
-# Community
+---
+title: Community
+---
 
-## Autonomous Driving AI Challenge Advent Calendar 2025
+<script>
+  window.location.replace(
+    "https://automotiveaichallenge.github.io/aichallenge-documentation-racingkart/community.html"
+  );
+</script>
 
-<https://qiita.com/advent-calendar/2023/jidounten-ai>
-
-## Articles on Autonomous Driving AI Challenge Efforts
-
-<https://automotive.panasonic.com/en/newsroom/jaaic>
-
-<https://www.ritsumei.ac.jp/ise/suki_ict/story01.html/>
-
-We are actively seeking contributions!!!
+If you are not redirected automatically, click the link below.  
+[:material-launch: Autonomous Driving AI Challenge 2026 (RacingKart)](https://automotiveaichallenge.github.io/aichallenge-documentation-racingkart/community.html){ .md-button .md-button--primary target="_blank" }
